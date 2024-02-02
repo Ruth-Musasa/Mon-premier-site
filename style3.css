@@ -1,0 +1,187 @@
+body {
+    font-size: 1.5rem;
+    background-color: #1C1C1E;
+    line-height: 1;
+    font-family: 'Borel', cursive;
+   
+    padding-block: 2rem;
+    text-align: justify;
+}
+
+h2 {
+    font-family: 'Mea Culpa', cursive;
+    font-size: 4rem;
+
+}
+
+p {
+    line-height: 2;
+    color: #98969E;
+    font-weight: 500;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 6.5rem;
+    font-weight: 500;
+    letter-spacing: 1rem;
+    font-family: 'Bodoni Moda', serif;
+}
+
+
+li {
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+#bouton a {
+
+    color: white;
+
+    width: 10px;
+    cursor: pointer;
+    font-size: 19px;
+    padding-left: 1600px;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px 10px rgba(71, 70, 70, 0.2);
+}
+
+/* section principale */
+
+.etude {
+    display: flex;
+    padding-block: 50px;
+    justify-content: space-between;
+    padding-right:5rem ;
+}
+
+.etude img {
+    border-radius: 50% 40% 60% 50%;
+    height: 600px;
+    box-shadow: 10px 10px 10px 10px rgb(34, 33, 33);
+}
+
+.presentation {
+    text-align: justify;
+    padding-inline: 4rem;
+    padding-top: 80px;
+}
+
+.loisir {
+    display: flex;
+    padding-block: 3rem;
+    justify-content: space-between;
+}
+
+.presentation1 {
+    text-align: justify;
+    padding-inline: 4rem;
+    padding-top: 80px;
+}
+
+.loisir img {
+    border-radius: 50% 40% 60% 50%;
+    height: 600px;
+    box-shadow: 10px 10px 10px 10px rgb(34, 33, 33);
+}
+
+.pagne {
+    display: flex;
+    padding-block: 50px;
+    justify-content: space-between;
+    padding-right:6rem ;
+}
+
+.pagne img {
+    border-radius: 50% 40% 60% 50%;
+    height: 600px;
+    box-shadow: 10px 10px 10px 10px rgb(34, 33, 33);
+}
+
+.presentation2 {
+    text-align: justify;
+    padding-inline: 4rem;
+    padding-top: 80px;
+}
+
+.color {
+    color: #bd8138;
+}
+
+.color:hover {
+    color: #815219;
+}
+
+@media (max-width: 800px) {
+    img {
+        width: 100%;
+
+    }
+
+    .pagne img,
+    .loisir img,
+    .etude img {
+        height: 300px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .etude,
+    .loisir,
+    .pagne {
+        flex-wrap: wrap;
+        padding-block: 20px;
+    }
+
+
+    .color {
+        font-size: 2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .etude {
+        padding-block: -2rem;
+    }
+
+    #bouton a {
+        padding-left: 15rem;
+    }
+
+    .presentation,
+    .presentation2 {
+        padding-right: 0rem;
+        padding-top: 2rem;
+        padding-left: 0rem;
+
+    }
+
+    .presentation1 {
+        padding-left: 0rem;
+        padding-top: 2rem;
+    }
+
+    .loisir {
+        display: grid;
+    }
+
+    .presentation1 {
+        grid-area: 1/1;
+    }
+
+    .loisir--loisir {
+        grid-area: 1/2;
+    }
+
+}

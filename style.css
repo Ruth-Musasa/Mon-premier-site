@@ -1,0 +1,115 @@
+body {
+    background-color: #1C1C1E;
+    color: white;
+    line-height: 0.3;
+    padding-left: 3rem;
+}
+
+.conteneur {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conteneur2 {
+    flex-wrap: wrap;
+}
+
+.image {
+    padding-block: 3rem;
+    border-radius: 60% 30% 60% 30%;
+    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.material-symbols-outlined {
+    color: #d8dbae;
+}
+
+.nom {
+    color: white;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 8rem;
+    text-align: center;
+    padding-left: 3rem;
+    padding-right: 5rem;
+    font-weight: 500;
+    line-height: 1;
+
+}
+
+.titre {
+    color: #bd8138;
+    text-align: center;
+    font-size: 9rem;
+    font-family: 'Fleur De Leah', cursive;
+    font-weight: 50;
+}
+
+.plus {
+    padding-left: 60%;
+    display: flex;
+}
+
+.plus img {
+    transform: rotate(-90deg);
+    height: 18rem;
+
+}
+
+.cercle {
+    border: 0.5rem;
+    background-color: #38383b;
+    border-radius: 60% 50% 60% 50%;
+    height: 12rem;
+    width: 12rem;
+    box-shadow: 10px 10px 5px 3px rgba(146, 141, 141, 0.2);
+}
+
+a {
+    color: #38383b;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.cercle:hover {
+    color: #19191b;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .image {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .nom {
+        font-size: 4rem;
+        padding-left: 1rem;
+
+    }
+
+    .conteneur {
+        flex-wrap: wrap;
+    }
+
+    .titre {
+        font-size: 3rem;
+    }
+
+    .plus {
+        padding-left: 60%;
+        display: flex;
+    }
+
+    .plus img {
+        height: 8rem;
+
+    }
+    .cercle {
+        border: 0.5rem;
+        height: 5rem;
+        width: 5rem;
+        box-shadow: 10px 10px 5px 3px rgba(146, 141, 141, 0.2);
+    }
+    
+}
